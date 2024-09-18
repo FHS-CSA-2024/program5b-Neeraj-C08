@@ -8,10 +8,15 @@ public class Car{
 
     public Car(){
         carName ="";
-        milesDriven = 200.7;
-        gallonsUsed = 10.4;
+        milesDriven = 0;
+        gallonsUsed = 0;
     }
-
+    
+    public Car(String carName, double milesDriven, double gallonsUsed){
+        this.carName = carName;
+        this.milesDriven = milesDriven;
+        this.gallonsUsed = gallonsUsed;
+    }
     
      // Getter
   public String getcarName() {
